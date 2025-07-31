@@ -89,10 +89,10 @@ async function main() {
 
     console.log('P2P node started successfully.');
     console.log(`[server.js] PROTOCOL LOADED: ${protocol.constructor.name}`);
-    
+    console.log('MARKETPLACE ADDRESS FOR DEPOSITS:', peer.wallet.publicKey);
     
     const server = express();
-    const port = process.env.PORT || 3000;
+    const port = process.env.PORT || 3006;
     const upload = multer({ dest: 'uploads/' });
 
     server.use(cors());
