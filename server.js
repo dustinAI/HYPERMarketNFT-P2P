@@ -92,7 +92,7 @@ async function main() {
     console.log('MARKETPLACE ADDRESS FOR DEPOSITS:', peer.wallet.publicKey);
     
     const server = express();
-    const port = process.env.PORT || 3006;
+    const port = process.env.PORT || 3000;
     const upload = multer({ dest: 'uploads/' });
 
     server.use(cors());
