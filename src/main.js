@@ -22,8 +22,8 @@ export async function startApp(storageName) {
     // --- INICIO DE CAMBIOS ---
     peer_opts.protocol = NFTMarketplaceProtocol;
     peer_opts.contract = NFTMarketplaceContract;
-    peer_opts.bootstrap = 'dcd093dec122844b6feb00d924c65b01b3e343b65b112616bfa34b3743511ae0'; 
-    peer_opts.channel = '000000000000000515nftmarketplace';
+    peer_opts.bootstrap = '576236c69beaf975854e5b9fba01b5bfe01e39c8ee27fb4cb35fd028bbc8f078'; 
+    peer_opts.channel = '000000000000000806nftmarketplace';
     // --- FIN DE CAMBIOS ---
     peer_opts.store_name = getStorePath() + '/nftmarketplace';
     peer_opts.enable_logs = true;
